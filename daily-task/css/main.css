@@ -1,0 +1,77 @@
+ .container{
+    width: 100%;
+    font-family: 'Karla', sans-serif;
+  
+}
+.head {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(3, 52, 69);
+}
+.para{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.line{
+    width:10%;
+    padding-left: 45%;
+    align-items: center;
+
+}
+.content-flex{
+    display: flex;
+}
+.department{
+    width: 15%;
+    font-size: small;
+}
+.department :hover{
+    color: rgb(6, 82, 109);
+    box-shadow: 2px 0px 0px 0px rgb(4, 46, 154);
+}
+.department h2{
+    font-size: 18px;
+    color: rgb(92, 91, 91);
+    text-align: center;
+   
+}
+
+.aboutdepartment{
+    width: 60%;
+    font-size: 17px;
+    /* border-left: 2px solid rgb(24, 62, 75); */
+    color: rgb(98, 96, 96);
+}
+.aboutdepartment h1{
+    color: rgb(0, 67, 89);
+   text-align: left;
+   padding-left: 8px;
+}
+.img{
+    width: 25%;   
+}
+.image{
+    width: 221px;
+    height: 211px;
+    position: relative;
+   left: 18px;
+}
+
+/* .department{
+    position: relative;
+    left: 82px;
+    top :10px;
+    padding-right: 15px;
+ 
+} */
+.line{
+    height: 190px;
+}
+.para2{
+    text-align:left;
+    padding-left:8px
+}
+.para1{
+    text-align:left;
+    padding-left:8px
+}
