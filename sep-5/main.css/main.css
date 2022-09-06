@@ -1,0 +1,48 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.head{
+    display: flex ;
+    justify-content: center;
+}
+.para{
+    display: flex ;
+    justify-content: center;
+    text-align: center;
+}
+.image{
+    display: flex;
+    flex-wrap:wrap;
+    width: 47%; 
+    position: relative;
+    padding: 15px;
+    height: 475px;
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+.text1{
+    width: 85%;
+    font-size: 18px;
+    height: auto;
+    position: absolute;
+    top: 320px;
+    left: 10%;
+    text-align: left;
+    padding-left: 15px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgb(225, 221, 221);
+}
+.text1 h3{
+    text-align: center;
+}
+.flexbox{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
