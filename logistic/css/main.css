@@ -1,0 +1,151 @@
+*{
+box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.about{
+    display: flex;
+}
+.aboutpara,
+.aboutimg{
+    width: 50%;
+ }
+ .aboutimg img{
+    width: 100%;
+    height: auto;
+    padding: 40px;
+    padding-top: 50px;
+ }
+.aboutpara h2{
+    font-size: 38px;
+    color: #001f8d;
+    font-weight: 700;
+}
+.aboutpara h3{
+    color: #001f8d;
+}
+.aboutpara p{
+    line-height: 1;
+    font-size: 21px
+
+}
+.icofont-bird-wings{
+text-align: left;
+font-size: 50px;
+color: #001f8d;
+
+}
+.abt1{
+    display: flex;
+
+}
+.abt1 i{
+    width: 12%;
+    padding-top: 20px;
+
+}
+.abt1 .txt{
+    width:88% ; 
+}
+.head{
+    
+    text-align: center;
+}
+.head h1{
+    position: relative;
+    font-size: 38px;
+    color: #001973;
+    font-weight: 700;
+    margin-top: 0;
+    z-index: 2;
+}
+.head span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: rgba(14, 29, 52, 0.06);
+    margin-top: -54px;
+    z-index: 1.5;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 0;
+}
+.flex-service{
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-service .servicebox{
+    width: 33.33%;
+    padding: 15px;
+   
+} 
+.content img{
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.servicetext{
+    padding: 20px;
+}
+.content{
+    border: solid rgb(214, 214, 214) 0.5px;
+    border-top: 0px;
+    
+}
+.content:hover img{
+    transform: scale(1.1);
+  
+    transition: transform .2s;
+}
+.cta{
+    position: relative;
+    /* background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url(../about/) center center;
+    background-size: cover;
+    padding-top: 100px;
+    background-attachment: fixed;
+    z-index: 1; */
+
+}
+.ctaimg{
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url(../about/) center center;
+    background: fixed;
+    width: 80%;
+
+}
+.ctahead{
+    position: absolute;
+    display: flex;
+    display: block;
+    align-items: center;
+justify-content: center;
+    z-index: 2;
+    color: white;
+    top: 100px;
+}
+.ctahead h3{
+    right: 90px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+.ctahead p{
+    position: relative;
+    display: block;
+    top: 20px;
+    left: 70px;
+    right: 70px;
+    font-size: x-large;
+    font-weight: 500;
+}
+.btn{
+    display: block;
+    width: 80px;
+    height: 20px;
+}
